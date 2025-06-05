@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Blog DevJoseph</title>
+    <meta name"discription" content="Blog y Portfolio de proyectos de desarrollo web de Joseph">
+</head>
+<body>
+    <header style="background-color: rgb(116, 100, 82); color:beige; padding: 1em;">
+        <h1>DevJoseph Portfolio & Blog</h1>
+        <nav>
+            <a href="#proyectos" style="color: aliceblue; margin-right: 1em;">Proyectos</a>
+            <a href="#blog" style="color: aliceblue; margin-right: 1em;">Blog</a>
+            <a href="#contacto" style="color: aliceblue; margin-right: 1em;">Contacto</a>
+        </nav>
+    </header>
+
+<!-- Seccion de proyectos con lista anidada -->
+ <main style="padding": 1em;>
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <ul>
+            <li><strong>App de Tareas</strong>
+                <ul>
+                    <li>Tecnologias: HTML5, CSS3, JavaScript.</li>
+                    <li>Descripcion: App Web para gestionar tareas diarias.</li>
+                    <li>GitHub:
+                        <!--  a href para meterle links // target="_blank: abre el enlace a una nueva pestaña del navegador" -->
+                        <a href="https://github.com/Josephtur"target="_blank">GitHub Joseph</a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+<!--  aqui sera la seccion de blog con entradas recientes // OL: orderlist-->
+
+    <section id="blog">
+        <h2>Entradas Recientes</h2>
+        <ol> 
+            <li>
+                <h3>Como Empezar con Angular</h3>
+                <p>Publicado el 01/06/2025 - Una guia para principiantes.</p>
+                <a href="https://docs.angular.lat/tutorial/" target="_blank">Leer mas sobre la guia para principiantes</a>
+            </li>
+
+            <li>
+                <h3>CSS Grid vd Flexbox</h3>
+                <p>Publicado el 25/05/2025 - Comparacion practica para decidir cuando usar cada uno</p>
+                <a href="https://docs.angular.lat/tutorial/" target="_blank">Leer mas -> </a>
+            </li>
+        </ol>
+    </section>
+
+    <section id="estadisticas">
+        <h2>Estadisticas del Blog</h2>
+        <table style="width: 80%; border-collapse: collapse; margin: auto;">
+            <tr style="background-color: rgb(147, 118, 118);">
+                <th style="padding: 10px; border: 1px solid rgb(17, 17, 16);">Mes</th>
+                <th style="padding: 10px; border: 1px solid rgb(17, 17, 16);">Visitas</th>
+                <th style="padding: 10px; border: 1px solid rgb(17, 17, 16);">Comentarios</th>
+             </tr>
+
+             <tr>
+                <td style="padding: 10px; border: 1px solid rgb(17, 17, 16);">Abril 2025</td>
+                <td style="padding: 10px; border: 1px solid rgb(22, 22, 21);">1200</td>
+                <td style="padding: 10px; border: 1px solid rgb(22, 22, 21);">15</td>
+             </tr>
+
+              <tr>
+                <td style="padding: 10px; border: 1px solid rgb(18, 18, 18);">Mayo 2025</td>
+                <td style="padding: 10px; border: 1px solid rgb(23, 23, 23);">2500</td>
+                <td style="padding: 10px; border: 1px solid rgb(21, 21, 21);">34</td>
+             </tr>
+
+        </table>
+    </section>
+</main>
+
+<footer id="Contacto" style="background-color: antiquewhite; color:rgb(10, 10, 10); padding: 1em; text-align: center;margin-top: 2em">
+
+        <p>&copy;2025 DevJoseph. Sigueme en <a href="https://github.com/Josephtur" target="_blank" style="color:rgb(10, 10, 10);">Github</a> 
+        </p>
+
+</footer>
+
+
+
+
+</body>
+</html>
