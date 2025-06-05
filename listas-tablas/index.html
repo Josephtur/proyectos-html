@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- name="vieport" ventana grafica -->
+     <!-- content="width=device-width esto indica el ancho de dispositivo (movil 360 px) -->
+      <!-- initial-scale=1.0" nivel de zoom inicial (100%)Al iniciar la web se vera el % -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y tablas</title>
+</head>
+<body>
+    <!-- Negrita <strong> y cursiva <em> -->
+    <p>En <strong>TechStartup</strong> diseñamos aplicaciones moviles para <em> mejorar tu dia a dia</em></p>
+
+<!-- Etiquetas cita en bloque/opiniones de usuarios/comentarios -->
+<blockquote>
+<em>
+    "Desde que uso la App de Techstartup, organizar mi semana es mas facil que nunca"
+</em> - Laura G.
+</blockquote>
+<!--  <u> subrayado texto -->
+<u> Textos subrayado</u>
+<!-- <br> salto de linea -->
+<br>
+<!-- <s> texto tachado -->
+<s> Texto tachado</s>
+
+
+<!-- listas no numeradas : son listas que no tienen numeros-->
+
+
+<h2>Funcionalidades claves</h2>
+<!-- <ul> es caracter de listas no numeradas -->
+<ul>
+
+    <!-- <li> seria el contenido de cada fila de la lista -->
+    <li>sincronizacion en la nube en tiempo real</li>
+    <li>Notificaciones personalisadas</li>
+    <li>interfaz 100% responsive</li>
+    <li>Soporte 24/7</li>
+</ul>
+
+<!-- <ol> listas numeradas -->
+    <h2>Como Empezar</h2>
+    <ol>
+        <li>Descargas la aplicacion desde tu tienda favorita</li>
+        <li>Registrate con tu correo electronico</li>
+        <li>Configura tus preferencias en el perfil</li>
+        <li>¡Empieza a disfrutar las funciones avanzadas!</li>
+
+    </ol>
+
+    <!-- listas anidadas -->
+     <h2>Planes disponibles</h2>
+     <ul>
+        <li>Plan Basic
+            <ul>
+                <li>5 GB de almacenamiento en la nube</li>
+                <li>Soporte por correo electronico</li>
+            </ul>
+        </li>
+
+        <li>Plan Pro
+            <ul>
+                <li>50 GB de almacenamiento en la nube</li>
+                <li>Soporte prioritario</li>
+                <li>Funciones de colaboracion en equipo</li>
+            </ul>     
+        </li>
+
+        <li>Plan Empresarial
+            <ul>
+                <li>Almacenamiento ilimitado</li>
+                <li>Administrador de cuentas dedicadas</li>
+                <li>Integraciones de API avanzadas</li>
+         </ul>
+        </li>
+
+     </ul>
+
+     <!-- <tr> = TABLE ROW : una fila
+          <th> = TABLE HEADER : encabezado
+          <td> = TABLE DATA : dato 
+        -->
+
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Puntaje</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>88</td>
+            </tr>
+        </table>
+
+
+        <!-- Tablas comparativas -->
+
+            <h2>Comparativas de Planes</h2>
+            <!--width 80% del ancho del contenedor padre / border-collapse: los bordes de las celdas se fusionan/ margin: 1em auto : siginifa el tamaño de la letra al 100%
+            margin: es la celda  -->
+            <table style="width: 80%; border-collapse;margin: 1em auto;">
+                <tr>
+                    <th style="border: 1px solid rgb(185, 82, 82); padding: 8px;">Plan</th>
+                    <th style="border: 1px solid rgb(185, 82, 82); padding: 8px;">Almacenamiento</th>
+                    <th style="border: 1px solid rgb(185, 82, 82); padding: 8px;">Precio Mensual</th>
+                </tr>
+                <tr>
+
+                    <!-- padding: 8px : izquierda / el contenido dentro de la celda no este pegado al borde y la separacion serian los PX -->
+                    <td style="border: 1px solid wheat; padding: 8px">Basic</td>
+                    <td style="border: 1px solid wheat; padding: 8px">5GB</td>
+                    <td style="border: 1px solid wheat; padding: 8px">9.99</td>
+
+
+
+                </tr>
+
+                    <tr  style="background-color:rgb(100, 96, 90)">
+                    <!-- padding: 8px : izquierda / el contenido dentro de la celda no este pegado al borde y la separacion serian los PX -->
+                    <td style="border: 1px solid wheat; padding: 8px;">Pro</td>
+                    <td style="border: 1px solid wheat; padding: 8px;">50GB</td>
+                    <td style="border: 1px solid wheat; padding: 8px;">19.99</td>
+
+
+
+                 </tr>
+                 <tr>
+
+                    <!-- padding: 8px : izquierda / el contenido dentro de la celda no este pegado al borde y la separacion serian los PX -->
+                    <td style="border: 1px solid wheat; padding: 8px">Empresarial</td>
+                    <td style="border: 1px solid wheat; padding: 8px">ilimitado</td>
+                    <td style="border: 1px solid wheat; padding: 8px">contactar</td>
+
+
+
+                </tr>
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </table>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
