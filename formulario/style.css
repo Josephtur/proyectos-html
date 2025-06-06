@@ -1,0 +1,82 @@
+body{
+   background-image: url(https://wallpaperaccess.com/full/4496347.jpg);/*aca se púede agregar imagen con background-image url ( link )*/
+   width: 100%; /*ocupa todo el ancho*/
+   height:100vh; /*Altura igual a la ventana al navegar*/
+   margin: 0; /*Eliminar margenes por defecto*/
+   background-color: #adadb2; /*Color de fondo de body*/ 
+   color:black; /*color del texto*/
+   font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipografia dentro del body*/ 
+   font-size: 16px; /*tamaño de tipografia*/
+   
+}
+/*Estilos a etiquetas*/
+label{
+    display: block; /*cada etiqueta ocupa su propia linea*/
+    margin: 0.5rem 0; 
+
+}
+
+/*encabezados*/
+h1, p{
+    margin: 0.5em auto; /*Margen vertical y centrado horizontal*/
+    text-align: center; /*centra el texto dentro del contenedor*/
+
+}
+
+/*Contenedor de formulario*/
+
+form{
+    padding-top: 0em; /*Sin espacio arriba*/
+    margin: 0 auto; /*centra horizontalmente el formulario*/
+    max-width: 500px; /*ancho maximo*/
+    min-width: 300px; /*Ancho minimo para dispositivos pequeños*/
+    width: 60vw; /*ancho relativo al 60% de la ventana*/
+    padding: 1em; 
+}
+
+/*Estilos al fieldset*/
+fieldset{
+    border: 0; /*Elimina el borde por defecto*/
+    padding: 0.5rem 0; /*Espaciado interno vertical*/
+    border-bottom: 3px solid #09090a; /*Lineadecorativa*/
+}
+
+fieldset:last-of-type{
+    border-bottom: none; /*Elimina la linea decorativa del ultimo*/
+}
+/*refuerzo por compartibilidad*/
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,textarea,select{
+    margin: 10px 0 0 0; /*Espaciado superior entre campos*/
+    width: 100%; /*ancho completo del contenido */
+    min-height: 2em;/* Alturaminima para mejor acceso*/
+}
+
+.inline{
+    width: unset; /* Restaura automaticamente*/
+    margin: 0 0.5em 0 0; 
+    vertical-align: middle; /*alineaacion vertical;*/
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #50505b;
+    min-width: 300px;
+}
+
+
+input[type="file"]{
+    padding: 1px 2px /*pequeño relleno para mejorar la apariencia*/
+}
+
+a{
+    color:rgb(91, 54, 240);
+}
