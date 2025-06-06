@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios y videos</title>
+</head>
+<body>
+        <section id="Demo-audio">
+            <h2>Demo Audio</h2>
+            <audio controls style="width: 100%; max-width: 400px;">
+                <source src="https://cdn.pixabay.com/audio/2025/03/12/audio_a3138c7096.mp3" type="audio/mpeg">
+                <!-- Mensaje alternativo si el navegador no carga o no soporta la etiqueta audio <audio> -->
+                    Tu navegador no soporta la etiqueta <code>&lt;audio&gt;</code>
+            </audio>
+            <p><em>Pruebalo: Haz clic en reproducir para escuchar el audio de muestra</em></p>
+        </section>    
+
+        <h1>Reproductor de Audio</h1>
+        <!--  controls: Añade los controles de reproduccion -->
+          <!-- audio/mpeg es el tipo MIME (diferentes formatos) le dice al nav que tipo de contenido esta manejado// MP3 = MPEG-1 audio layer III  -->
+        <audio controls>
+            <source src="Energie.mp3" type="audio/mpeg"> 
+
+        </audio>
+
+
+
+
+        <h1>Reproductor de Videos</h1>
+        <video width="640" height="360" controls >
+            <source src="conejo.mp4" type="Video/mp4">
+        </video>
+
+        <section id="demo-video" style="margin-top:2em">
+            <h2>Demo de Video</h2>
+            <video controls width="100%" style="max-width: 500px;"
+            poster="https://th.bing.com/th/id/OIP.TdyRwLjyJ4GeWihpUNmlgAHaCI?w=316&h=100&c=7&r=0&o=5&pid=1.7">
+            <source src="video2.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta <code>&lt;video&gt;
+            </code>
+        </video>
+
+        <p><em>Video de nuestra "Big Buck Bunny". Haz clic para reproducir</em></p>
+
+        </section>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aqz-KE-bpKQ?si=F2Mizebp9ccTOsuZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+    
+</body>
+</html>
